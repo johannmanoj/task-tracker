@@ -1,0 +1,16 @@
+.background-card{
+    /* background-color:#fefbe9; */
+    background-image: url(https://wallpapercave.com/wp/Jx3kwzS.jpg);
+    border-radius: 30px;
+    width: 96%;
+    height: 665px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.background-card-layout{
+    display: flex;
+    flex-direction: row;
+}

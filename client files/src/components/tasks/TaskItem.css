@@ -1,0 +1,111 @@
+.task-item {
+    width: 96%;
+    background-color: #e1eedd;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 10px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.task {
+    /* background-color: blue; */
+    width: 1185px;
+    flex-direction: row;
+    text-align: start;
+}
+
+.task-text {
+    margin-left: 10px;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.space {
+    width:70px;
+    
+}
+.space2 {
+    width:70px;
+    background-color:blue;
+}
+
+.text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.text-strike {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: line-through;
+}
+
+/* .check {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 5px;
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 10px; 
+    margin-right: 10px;
+} */
+
+.delete {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 5px;
+    width: 40px;
+    margin-top: 15px;
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+
+.delete:hover {
+    color: brown;
+}
+
+.edit {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 5px;
+    width: 40px;
+    margin-top: 15px;
+    margin-left: 10px; 
+    margin-right: 5px;
+}
+
+.edit:hover {
+    color: brown;
+}
+
+.trash {
+    height: 30px;
+    width: 30px;
+}
+
+.checkbox-round {
+    margin-top: 22px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+    background-color: gray;
+}

@@ -1,0 +1,24 @@
+.title_header {
+    width: 100%;
+    height: 80px;
+    /* background-color:darkgrey; */
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 26px;
+    border-top-right-radius: 30px;
+    
+}
+
+.header-add-task {
+    margin-top: 15px;
+    margin-left: 10px; 
+    margin-right: 20px;
+    width: 500px;
+    height: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
+    
+}
+
+
