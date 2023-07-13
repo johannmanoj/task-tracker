@@ -9,6 +9,7 @@ router.post('/get-all-tasks', async (req,res) => {
         res.status(200).send(queryResult);
     } catch(err) {
         console.log(err)
+        res.status(500).send(err)
     }
 });
 
