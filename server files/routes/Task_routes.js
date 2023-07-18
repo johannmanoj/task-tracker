@@ -16,7 +16,6 @@ router.post('/get-all-tasks', async (req,res) => {
 router.post('/add-task', async (req,res) => {
     try{
         const {task, date} = req.body
-        console.log({"task":task, "date":date});
         const queryResult = await tasks_db.insert_task(task, date);
         res.status(200).send(queryResult);
     } catch(err) {
@@ -36,10 +35,8 @@ router.post('/delete-task', async (req,res) => {
 
 router.post('/update-task', async (req,res) => {
     try{
-        console.log(req.body);
         const {task_id,desc} = req.body
         const queryResult = await tasks_db.update_task(task_id, desc);
-        console.log("res-----------", queryResult);
         res.status(200).send(queryResult);
     } catch(err) {
         console.log(err)
